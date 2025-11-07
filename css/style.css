@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Delius&family=Press+Start+2P&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #a5243d;
+  font-family: "Delius";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  width: 32rem;
+  margin-inline: auto;
+  padding: 1rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #b48291;
+}
+
+.title {
+  font-size: 4rem;
+  padding: 2rem;
+}
+
+.card-content {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sprite {
+  display: none;
+  width: 12rem;
+  height: 12rem;
+}
+
+.poke-title {
+  font-size: 2.5rem;
+  padding: 1rem;
+}
+
+.stats {
+  list-style: none;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+}
+
+.stats li {
+  font-size: 2rem;
+}
+
+.poke-form {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+.poke-input,
+.poke-btn {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+
+.poke-btn:active {
+  background-color: rgba(255, 255, 255, 0.5);
+}
