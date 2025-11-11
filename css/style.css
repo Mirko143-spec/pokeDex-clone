@@ -89,7 +89,7 @@ body {
 
 @media (max-width: 400px) {
   .card {
-    width: 100vw;
+    width: 90vw;
   }
 
   .poke-input,
