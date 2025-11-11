@@ -86,3 +86,16 @@ body {
 .poke-btn:active {
   background-color: rgba(255, 255, 255, 0.5);
 }
+
+@media (max-width: 400px) {
+  .card {
+    width: fit-content;
+  }
+
+  .poke-input,
+  .poke-btn {
+    font-size: 1rem;
+    padding: 0.3rem;
+    margin: 0.3rem;
+  }
+}
